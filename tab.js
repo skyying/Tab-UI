@@ -1,6 +1,10 @@
 (function() {
-    //key is link name
-    //isCurrent will set which tab is current 
+
+    // tab name : {
+    //  content : // display text
+    //  isCurrent: // assing as current tab
+    // }
+    
     let data = {
         Red: {
             content: "Someone got married? ",
