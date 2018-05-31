@@ -42,7 +42,6 @@
             linkName.innerHTML = key;
             if (data[key].isCurrent) {
                 linkName.classList.add("current")
-                console.log(linkName);
             }
             parent.appendChild(linkName);
         }
